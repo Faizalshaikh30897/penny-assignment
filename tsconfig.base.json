@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@assignment/shared": ["shared/src/index.ts"],
+      "@assignment/user": ["user/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
